@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=\"Bootstrap_assingment\""
+    "start": "lite-server --baseDir=\"JustinFronda-INM320-BootstrapAssignment\""
   },
   "author": "justin fronda",
   "license": "ISC",
