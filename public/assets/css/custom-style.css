@@ -5,6 +5,48 @@ body{
     background-color: #f4f4f4;
     font-family: 'Mulish', sans-serif;
 }
+/* H1,H2, p */
+h2{
+    font-size:24px;
+}
+h3{
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+}
+h3.f-black{
+    color: #252733;
+    text-align: left;
+}
+h4{
+    font-size:14px;
+    font-weight: normal;
+}
+h4.f-blue{
+    color:#3751FF;
+    text-align: right;
+}
+h4.f-gray{
+    color:#C5C7CD;
+}
+.f-12{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.f-16{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
 /* Card */
 .rounded-full {
 border-radius: 100%;
@@ -148,51 +190,7 @@ li.nav-item.nav-icn {
 /* hr */
 hr{border: 1px solid #DFE0EB;}
 
-/* H1,H2, p */
-h1{
-    font-size: 24px;
-}
-h2{
-    font-size:24px;
-}
-h3{
-    font-size: 19px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.4px;
-    color: #9FA2B4;
-}
-h3.f-black{
-    color: #252733;
-    text-align: left;
-}
-h4{
-    font-size:14px;
-    font-weight: normal;
-}
-h4.f-blue{
-    color:#3751FF;
-    text-align: right;
-}
-h4.f-gray{
-    color:#C5C7CD;
-}
-.f-12{
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.1px;
-    color: #9FA2B4;
-}
-.f-16{
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: #9FA2B4;
-}
+
 /* button */
 .btn-task{
     background-color: #fff;
