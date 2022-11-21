@@ -1,0 +1,14 @@
+{
+  "name": "fronda_justin_assignment6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"Bootstrap_assingment\""
+  },
+  "author": "justin fronda",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

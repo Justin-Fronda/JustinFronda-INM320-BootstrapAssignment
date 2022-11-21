@@ -1,0 +1,284 @@
+/* Import Muli Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+body{
+    background-color: #f4f4f4;
+}
+/* Card */
+.rounded-full {
+border-radius: 100%;
+}   
+    
+/* Wrapper */
+  #wrapper {
+    overflow-x: hidden;
+    background-color:#f7f7fc;
+  }
+  
+  #sidebar-wrapper {
+    background: #363740;
+    min-height: 100vh;
+    margin-left: -15rem;
+    z-index: 999;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 35px;
+    font-size: 1.2rem;
+  }
+  
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #menu-toggle {
+    cursor: pointer;
+  }
+/* End Wrapper */
+
+/* Nav */
+  
+a.nav-link {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #A4A6B3 !important;
+    text-align: left;
+    padding:20px;
+}
+.navbar>.nav-item:hover {
+    border-left: 5px solid #DDE2FF;
+    width: 100%;
+    background: #3e4049;
+    color: #DDE2FF !important;
+    transition: .2s ease-in-out
+}
+li.nav-item.active {
+    border-left: 5px solid #DDE2FF;
+    width: 100%;
+    background: #3e4049;
+    color: #DDE2FF;
+}
+ul.navbar.navbar-nav.ms-auto {
+    align-items: flex-start;
+}
+/* Profile */
+li.nav-item.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none !important;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    border-left: 1px solid #DFE0EB;
+    height: 32px;
+}
+.navbar .avatar {
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.rounded-pf{
+    border-radius: 100%;
+    padding:2px;
+    border:1px solid #DFE0EB;
+}
+.avatar {
+    height: 50px;
+    width: 50px;
+}
+li.nav-item.nav-icn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C5C7CD;
+    font-size:20px;
+}
+.user-container{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.user-name{
+    display: none;
+}
+/* Badge */
+.badge-notif {
+    margin-left: -20px;
+    margin-top: 5px;
+    background-color: #3751FF !important;
+}
+.w-100.m{
+    width: 0;;
+}
+
+/* End Nav */
+
+/* Spacing- Padding, Margin */
+.pr-20{
+    padding-right:20px;
+}
+.p-15{
+    padding:15px;
+}
+.plr-3{
+    padding:0 1rem 0 1rem;
+}
+.pt-30-m{
+    padding-top:30px;
+}
+
+/* hr */
+hr{border: 1px solid #DFE0EB;}
+
+/* H1,H2, p */
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size:24px;
+}
+h3{
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+}
+h3.f-black{
+    color: #252733;
+    text-align: left;
+}
+h4{
+    font-size:14px;
+    font-weight: normal;
+}
+h4.f-blue{
+    color:#3751FF;
+    text-align: right;
+}
+h4.f-gray{
+    color:#C5C7CD;
+}
+.f-12{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.f-16{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+/* button */
+.btn-task{
+    background-color: #fff;
+    border: none;
+    color:#9FA2B4;
+}
+.btn-task:hover:active:focus{
+    background-color: #fff;
+    border: none;
+    color:#9FA2B4;
+}
+span.f-black{
+    color: #252733;
+}
+
+
+.p-card{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #252733;
+}
+.card-custom{
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.card-custom:hover{
+    border: 1px solid #3751ff;
+    cursor: pointer;
+}
+.card-custom h3:hover{
+    color:#3751ff;
+}
+.active-card{
+    border: 1px solid #3751ff;
+}
+.active-text{
+    color:#3751ff;
+}
+/* Checkbox Radius */
+.form-check-input[type=checkbox]{
+    border-radius: 100%;;
+}
+/* Badge */
+.badge{
+    font-weight: normal;
+    font-size:11px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 8px;
+    padding:5px 12px;
+}
+.badge.bg-scs-cst{
+    background-color: #29CC97 !important;
+}
+.badge.bg-default{
+    color: #9FA2B4;
+    background-color: #F0F1F7;
+}
+
+/* Dekstio View */
+  @media (min-width: 768px) {
+   
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+    .user-container{
+        margin-top:0;
+    }
+    .user-name{
+        display: block;
+    }
+    .w-100-m{
+        width: 100%;
+    }
+    .pt-30-m{
+        padding-top:0;
+    }
+  }
