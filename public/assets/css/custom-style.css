@@ -3,6 +3,7 @@
 
 body{
     background-color: #f4f4f4;
+    font-family: 'Mulish', sans-serif;
 }
 /* Card */
 .rounded-full {
@@ -223,16 +224,25 @@ span.f-black{
 .card-custom:hover{
     border: 1px solid #3751ff;
     cursor: pointer;
+    transition: .3s ease-in-out;
 }
 .card-custom h3:hover{
     color:#3751ff;
 }
-.active-card{
-    border: 1px solid #3751ff;
+.card-custom:hover p {
+    color: #3751ff;
+    transition: .3s ease-in-out;
 }
-.active-text{
-    color:#3751ff;
+
+.card-custom:hover h3 {
+    color: #3751ff;
+    transition: .3s ease-in-out;
 }
+.card-custom-1{
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
 /* Checkbox Radius */
 .form-check-input[type=checkbox]{
     border-radius: 100%;;
